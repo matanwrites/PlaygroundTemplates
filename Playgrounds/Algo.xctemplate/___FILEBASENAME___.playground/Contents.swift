@@ -11,7 +11,7 @@ func solution(<#arguments#>) -> <#ret#> {
 
 
 _ = {
-    let input = <#input#>
+    var input = <#input#>
     let output = <#output#>
     
     print("solution is \(output)")
