@@ -10,11 +10,9 @@ func solution(<#arguments#>) -> <#ret#> {
 }
 
 
-_ {
+_ = {
     let input = <#input#>
     let output = <#output#>
     
     print("solution is \(output)")
 }()
-
-
