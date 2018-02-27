@@ -4,7 +4,7 @@ import UIKit
 import Foundation
 
 
-func solution(<#arguments#>) -> <#ret#> {
+public func solution(<#arguments#>) -> <#ret#> {
     
     return <#ret#>
 }
@@ -12,7 +12,9 @@ func solution(<#arguments#>) -> <#ret#> {
 
 _ = {
     var input = <#input#>
-    let output = <#output#>
-    
+    let exp = <#expected#>
+    let output = solution(<#arg#>)
+
+    assert(output == exp, "expected \(exp), got \(output)")
     print("solution for \(input) is \(output)")
 }()
